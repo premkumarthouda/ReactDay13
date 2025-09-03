@@ -1,0 +1,23 @@
+/* Write your CSS here */
+.main-container {
+  background-image: linear-gradient(to bottom, #fbc7d4, #9796f0);
+  background-size: cover;
+  height: 100vh;
+}
+.conatiner {
+  background-color: #ffffff;
+  background-size: cover;
+  border-radius: 8px;
+  margin: 10px;
+  margin-top: 30px;
+  margin-bottom: 20px;
+  margin-left: 10px;
+  margin-right: 10px;
+  height: 80vh;
+}
+.form{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin: 10px;
+}
