@@ -1,1 +1,42 @@
-/* Write your CSS here */
+/* Write your CSS here *//* Write your CSS here */
+.list-Items {
+  list-style: none;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+.mini-container {
+  position: relative;
+  width: 100%;
+  background-color: #ffffff;
+  background-size: cover; /* smooth shadow */
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  margin: 10px;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.15);
+  border-radius: 5px; /* optional for softer corners */
+}
+
+.star-icon {
+  position: absolute; /* child pinned */
+  top: 8px; /* adjust distance from top */
+  right: 8px; /* adjust distance from right */
+  cursor: pointer; /* makes it clickable */
+  width: 24px; /* size control */
+  height: 24px;
+  background-color: transparent;
+  border-color: transparent;
+}
+.head-1 {
+  color: #171f46;
+  font-family: 'Roboto';
+  font-size: 28px;
+  margin: 18px;
+}
+.para1 {
+  color: #b5b7c4;
+  font-size: 15px;
+  margin: 18px;
+  font-family: 'Roboto';
+}
